@@ -1,5 +1,5 @@
 # Installation
-- NodeJS 12.x
+- NodeJS 16.x
 - Create react app
 
 # First run
