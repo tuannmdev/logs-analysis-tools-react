@@ -1,10 +1,18 @@
+import DashboardIcon from '@material-ui/icons/Dashboard'; 
+import AssessmentIcon from '@material-ui/icons/Assessment';
+
 const routes = [
     {
-      path: "/dashboard",
-      name: "Dashboard",
-      icon: null,
-      component: null,
-      layout: "/admin",
+      title: 'Home',
+      path: '/',
+      icon: <AssessmentIcon />,
+      cName: 'nav-text'
+    },
+    {
+      title: 'Dashboard',
+      path: '/dashboard',
+      icon: <DashboardIcon />,
+      cName: 'nav-text'
     },
 ]
 
